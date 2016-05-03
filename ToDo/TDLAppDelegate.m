@@ -6,17 +6,35 @@
 //  Copyright © 2016年 Masutangu. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "TDLAppDelegate.h"
+#import "TDLMainViewController.h"
 
-@interface AppDelegate ()
+@interface TDLAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation TDLAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    NSLog(@"%@", NSStringFromSelector(_cmd));
+    // If state restoration did not occur,
+    // set up the view controller hierarchy
+    
+    if (!self.window.rootViewController) {
+        // Override point for customization after application launch
+        // Create a BNRItemsViewController
+        TDLMainViewController *mainViewController =
+        [[TDLMainViewController alloc] init];
+        // Create an instance of a UINavigationController
+        // its stack contains only itemsViewController
+        UINavigationController *navController = [[UINavigationController alloc]
+                                                 initWithRootViewController:mainViewController];
+        self.window.rootViewController = navController;
+    }
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BABE3E11CCB321D0025E0C0 /* TDLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABE3E01CCB321D0025E0C0 /* TDLMainViewController.m */; };
+		9BABE3E31CCB323F0025E0C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BABE3E21CCB323F0025E0C0 /* Main.storyboard */; };
+		9BABE3FC1CCB69FF0025E0C0 /* TDLJobDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABE3FB1CCB69FF0025E0C0 /* TDLJobDetailsViewController.m */; };
+		9BABE3FE1CCB6A310025E0C0 /* TDLJobDetailsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BABE3FD1CCB6A310025E0C0 /* TDLJobDetailsViewController.storyboard */; };
+		9BABE4081CCBAC5D0025E0C0 /* TDLJob+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABE4051CCBAC5D0025E0C0 /* TDLJob+CoreDataProperties.m */; };
+		9BABE4091CCBAC5D0025E0C0 /* TDLJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABE4071CCBAC5D0025E0C0 /* TDLJob.m */; };
+		9BABE40D1CCBB5AC0025E0C0 /* TDLJobListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BABE40B1CCBB5AC0025E0C0 /* TDLJobListViewCell.m */; };
+		9BABE40E1CCBB5AC0025E0C0 /* TDLJobListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BABE40C1CCBB5AC0025E0C0 /* TDLJobListViewCell.xib */; };
 		9BB51EB81CAABEDA00C5DE1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB51EB71CAABEDA00C5DE1D /* main.m */; };
-		9BB51EBB1CAABEDA00C5DE1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB51EBA1CAABEDA00C5DE1D /* AppDelegate.m */; };
-		9BB51EBE1CAABEDA00C5DE1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB51EBD1CAABEDA00C5DE1D /* ViewController.m */; };
-		9BB51EC11CAABEDA00C5DE1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB51EBF1CAABEDA00C5DE1D /* Main.storyboard */; };
+		9BB51EBB1CAABEDA00C5DE1D /* TDLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB51EBA1CAABEDA00C5DE1D /* TDLAppDelegate.m */; };
 		9BB51EC31CAABEDA00C5DE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB51EC21CAABEDA00C5DE1D /* Assets.xcassets */; };
 		9BB51EC61CAABEDA00C5DE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB51EC41CAABEDA00C5DE1D /* LaunchScreen.storyboard */; };
 		9BB51ED11CAABEDB00C5DE1D /* ToDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB51ED01CAABEDB00C5DE1D /* ToDoTests.m */; };
 		9BB51EDC1CAABEDB00C5DE1D /* ToDoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB51EDB1CAABEDB00C5DE1D /* ToDoUITests.m */; };
+		9BFB1AD11CC2078E0055075B /* TDLJobStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFB1AD01CC2078E0055075B /* TDLJobStore.m */; };
+		9BFB1AD41CC20EF50055075B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BFB1AD21CC20EF50055075B /* Model.xcdatamodeld */; };
+		9BFB1AE61CC23D280055075B /* TDLJobListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFB1AE51CC23D280055075B /* TDLJobListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9BABE3DF1CCB321D0025E0C0 /* TDLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLMainViewController.h; sourceTree = "<group>"; };
+		9BABE3E01CCB321D0025E0C0 /* TDLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLMainViewController.m; sourceTree = "<group>"; };
+		9BABE3E21CCB323F0025E0C0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9BABE3FA1CCB69FF0025E0C0 /* TDLJobDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLJobDetailsViewController.h; sourceTree = "<group>"; };
+		9BABE3FB1CCB69FF0025E0C0 /* TDLJobDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLJobDetailsViewController.m; sourceTree = "<group>"; };
+		9BABE3FD1CCB6A310025E0C0 /* TDLJobDetailsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TDLJobDetailsViewController.storyboard; sourceTree = "<group>"; };
+		9BABE4041CCBAC5D0025E0C0 /* TDLJob+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TDLJob+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9BABE4051CCBAC5D0025E0C0 /* TDLJob+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TDLJob+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9BABE4061CCBAC5D0025E0C0 /* TDLJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLJob.h; sourceTree = "<group>"; };
+		9BABE4071CCBAC5D0025E0C0 /* TDLJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLJob.m; sourceTree = "<group>"; };
+		9BABE40A1CCBB5AC0025E0C0 /* TDLJobListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLJobListViewCell.h; sourceTree = "<group>"; };
+		9BABE40B1CCBB5AC0025E0C0 /* TDLJobListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLJobListViewCell.m; sourceTree = "<group>"; };
+		9BABE40C1CCBB5AC0025E0C0 /* TDLJobListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDLJobListViewCell.xib; sourceTree = "<group>"; };
 		9BB51EB31CAABEDA00C5DE1D /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB51EB71CAABEDA00C5DE1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9BB51EB91CAABEDA00C5DE1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9BB51EBA1CAABEDA00C5DE1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9BB51EBC1CAABEDA00C5DE1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9BB51EBD1CAABEDA00C5DE1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9BB51EC01CAABEDA00C5DE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BB51EB91CAABEDA00C5DE1D /* TDLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDLAppDelegate.h; sourceTree = "<group>"; };
+		9BB51EBA1CAABEDA00C5DE1D /* TDLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDLAppDelegate.m; sourceTree = "<group>"; };
 		9BB51EC21CAABEDA00C5DE1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB51EC51CAABEDA00C5DE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BB51EC71CAABEDA00C5DE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +70,11 @@
 		9BB51ED71CAABEDB00C5DE1D /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB51EDB1CAABEDB00C5DE1D /* ToDoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoUITests.m; sourceTree = "<group>"; };
 		9BB51EDD1CAABEDB00C5DE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFB1ACF1CC2078E0055075B /* TDLJobStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLJobStore.h; sourceTree = "<group>"; };
+		9BFB1AD01CC2078E0055075B /* TDLJobStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLJobStore.m; sourceTree = "<group>"; };
+		9BFB1AD31CC20EF50055075B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9BFB1AE41CC23D280055075B /* TDLJobListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDLJobListViewController.h; sourceTree = "<group>"; };
+		9BFB1AE51CC23D280055075B /* TDLJobListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDLJobListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +102,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B2A7A921CADF58E005CCC5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BABE4041CCBAC5D0025E0C0 /* TDLJob+CoreDataProperties.h */,
+				9BABE4051CCBAC5D0025E0C0 /* TDLJob+CoreDataProperties.m */,
+				9BABE4061CCBAC5D0025E0C0 /* TDLJob.h */,
+				9BABE4071CCBAC5D0025E0C0 /* TDLJob.m */,
+				9BFB1AD21CC20EF50055075B /* Model.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9B2A7A931CADF597005CCC5D /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				9BFB1ACF1CC2078E0055075B /* TDLJobStore.h */,
+				9BFB1AD01CC2078E0055075B /* TDLJobStore.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		9B2A7A941CADF5A4005CCC5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BFB1AE41CC23D280055075B /* TDLJobListViewController.h */,
+				9BFB1AE51CC23D280055075B /* TDLJobListViewController.m */,
+				9BABE3DF1CCB321D0025E0C0 /* TDLMainViewController.h */,
+				9BABE3E01CCB321D0025E0C0 /* TDLMainViewController.m */,
+				9BABE3FA1CCB69FF0025E0C0 /* TDLJobDetailsViewController.h */,
+				9BABE3FB1CCB69FF0025E0C0 /* TDLJobDetailsViewController.m */,
+				9BABE3FD1CCB6A310025E0C0 /* TDLJobDetailsViewController.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9B2A7A951CADF5BB005CCC5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BABE40A1CCBB5AC0025E0C0 /* TDLJobListViewCell.h */,
+				9BABE40B1CCBB5AC0025E0C0 /* TDLJobListViewCell.m */,
+				9BABE40C1CCBB5AC0025E0C0 /* TDLJobListViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		9BB51EAA1CAABEDA00C5DE1D = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +170,14 @@
 		9BB51EB51CAABEDA00C5DE1D /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
-				9BB51EB91CAABEDA00C5DE1D /* AppDelegate.h */,
-				9BB51EBA1CAABEDA00C5DE1D /* AppDelegate.m */,
-				9BB51EBC1CAABEDA00C5DE1D /* ViewController.h */,
-				9BB51EBD1CAABEDA00C5DE1D /* ViewController.m */,
-				9BB51EBF1CAABEDA00C5DE1D /* Main.storyboard */,
+				9B2A7A951CADF5BB005CCC5D /* View */,
+				9B2A7A941CADF5A4005CCC5D /* Controller */,
+				9B2A7A931CADF597005CCC5D /* Store */,
+				9B2A7A921CADF58E005CCC5D /* Model */,
+				9BB51EB91CAABEDA00C5DE1D /* TDLAppDelegate.h */,
+				9BB51EBA1CAABEDA00C5DE1D /* TDLAppDelegate.m */,
 				9BB51EC21CAABEDA00C5DE1D /* Assets.xcassets */,
+				9BABE3E21CCB323F0025E0C0 /* Main.storyboard */,
 				9BB51EC41CAABEDA00C5DE1D /* LaunchScreen.storyboard */,
 				9BB51EC71CAABEDA00C5DE1D /* Info.plist */,
 				9BB51EB61CAABEDA00C5DE1D /* Supporting Files */,
@@ -244,8 +315,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB51EC61CAABEDA00C5DE1D /* LaunchScreen.storyboard in Resources */,
+				9BABE3FE1CCB6A310025E0C0 /* TDLJobDetailsViewController.storyboard in Resources */,
+				9BABE40E1CCBB5AC0025E0C0 /* TDLJobListViewCell.xib in Resources */,
+				9BABE3E31CCB323F0025E0C0 /* Main.storyboard in Resources */,
 				9BB51EC31CAABEDA00C5DE1D /* Assets.xcassets in Resources */,
-				9BB51EC11CAABEDA00C5DE1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +343,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB51EBE1CAABEDA00C5DE1D /* ViewController.m in Sources */,
-				9BB51EBB1CAABEDA00C5DE1D /* AppDelegate.m in Sources */,
+				9BFB1AD11CC2078E0055075B /* TDLJobStore.m in Sources */,
+				9BB51EBB1CAABEDA00C5DE1D /* TDLAppDelegate.m in Sources */,
+				9BABE4081CCBAC5D0025E0C0 /* TDLJob+CoreDataProperties.m in Sources */,
+				9BABE3E11CCB321D0025E0C0 /* TDLMainViewController.m in Sources */,
+				9BABE4091CCBAC5D0025E0C0 /* TDLJob.m in Sources */,
+				9BABE3FC1CCB69FF0025E0C0 /* TDLJobDetailsViewController.m in Sources */,
 				9BB51EB81CAABEDA00C5DE1D /* main.m in Sources */,
+				9BABE40D1CCBB5AC0025E0C0 /* TDLJobListViewCell.m in Sources */,
+				9BFB1AD41CC20EF50055075B /* Model.xcdatamodeld in Sources */,
+				9BFB1AE61CC23D280055075B /* TDLJobListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +388,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9BB51EBF1CAABEDA00C5DE1D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BB51EC01CAABEDA00C5DE1D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9BB51EC41CAABEDA00C5DE1D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -496,6 +568,7 @@
 				9BB51EE21CAABEDB00C5DE1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BB51EE31CAABEDB00C5DE1D /* Build configuration list for PBXNativeTarget "ToDoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +577,7 @@
 				9BB51EE51CAABEDB00C5DE1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BB51EE61CAABEDB00C5DE1D /* Build configuration list for PBXNativeTarget "ToDoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,8 +586,22 @@
 				9BB51EE81CAABEDB00C5DE1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BFB1AD21CC20EF50055075B /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BFB1AD31CC20EF50055075B /* Model.xcdatamodel */,
+			);
+			currentVersion = 9BFB1AD31CC20EF50055075B /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9BB51EAB1CAABEDA00C5DE1D /* Project object */;
 }
